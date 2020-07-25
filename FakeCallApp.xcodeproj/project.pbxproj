@@ -37,6 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C116B0624CC1D2E00E7F0DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3CA1065324CC1A57001EF480 /* AppDelegate.swift */,
+				3CA1065524CC1A57001EF480 /* SceneDelegate.swift */,
+				3CA1065724CC1A57001EF480 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C116B0724CC1D3700E7F0DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CA1065924CC1A57001EF480 /* Main.storyboard */,
+				3CA1065C24CC1A57001EF480 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C116B0824CC1D3D00E7F0DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		3CA1064724CC1A57001EF480 = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +82,9 @@
 		3CA1065224CC1A57001EF480 /* FakeCallApp */ = {
 			isa = PBXGroup;
 			children = (
-				3CA1065324CC1A57001EF480 /* AppDelegate.swift */,
-				3CA1065524CC1A57001EF480 /* SceneDelegate.swift */,
-				3CA1065724CC1A57001EF480 /* ViewController.swift */,
-				3CA1065924CC1A57001EF480 /* Main.storyboard */,
-				3CA1065C24CC1A57001EF480 /* Assets.xcassets */,
+				3C116B0824CC1D3D00E7F0DF /* Model */,
+				3C116B0724CC1D3700E7F0DF /* View */,
+				3C116B0624CC1D2E00E7F0DF /* Controller */,
 				3CA1065E24CC1A57001EF480 /* LaunchScreen.storyboard */,
 				3CA1066124CC1A57001EF480 /* Info.plist */,
 			);
@@ -294,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = work.kirifu.FakeCallApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = work.kirifu.FakeCallApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
